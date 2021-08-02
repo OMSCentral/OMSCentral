@@ -50,7 +50,7 @@
     "@typescript-eslint/eslint-plugin": "4.28.0",
     "@typescript-eslint/parser": "4.26.0",
     "concurrently": "6.2.0",
-    "eslint": "7.27.0",
+    "eslint": "7.32.0",
     "eslint-plugin-flowtype": "5.7.2",
     "eslint-plugin-graphql": "4.0.0",
     "eslint-plugin-react": "7.24.0",
