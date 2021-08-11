@@ -125,14 +125,14 @@ Please refer to the [package.json](server/package.json) file the for the most up
 
 - The courses, semesters and reviews data is stored in a relational database.
 - Relational Database used: [postgres](https://www.postgresql.org/)
-- The server reads and writes to postgres database using [graphql](https://graphql.org/).
+- The server reads and writes to postgres database using objection js and knex js.
 
 ## User Authenication
 
 - User authenication is a security layer.
 - It allows a user to register his/her profile.
 - After his/her credentials are verified at time of login, the user can modify review data after.
-- Tools used:[Firebase](https://firebase.google.com/)
+- Tools used:[Firebase](https://firebase.google.com/docs/auth/web/start)
 
 ## Package management
 
@@ -141,32 +141,3 @@ Please refer to the [package.json](server/package.json) file the for the most up
 
 For a system architecture diagram, please see [here](./diagrams/SystemArchitecture.png).
 
-## Scripts
-
-### `npm run format`
-
-Formats all source code and package.json.
-
-### `npm test`
-
-Tests services.
-
-### `npm run dev`
-
-Starts services in development mode w/hot-reload.
-
-### `npm run build`
-
-Builds services.
-
-### `npm start`
-
-Starts services in production mode. Note: You must run `npm run build` first.
-
-### `npm run cypress`
-
-Runs cypress integration tests that enforce correct behavior. Requires the application to be up with `npm run dev` or `npm start` first.
-
-### `npm run cypress:clean`
-
-When finished, users created during tests may be cleaned up using this script.
